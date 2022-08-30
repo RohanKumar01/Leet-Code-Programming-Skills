@@ -17,7 +17,7 @@ Input: x = 3, y = 4, points = [[3,4]]
 Output: 0
 Explanation: The answer is allowed to be on the same location as your current location.*/
 
-    int nearestValidPoint(int x, int y, vector<vector<int>>& points) {
+int nearestValidPoint(int x, int y, vector<vector<int>>& points) {
         int s1 = points.size();
 map<int, int> m;
 
